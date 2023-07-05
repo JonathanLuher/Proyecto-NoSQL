@@ -1,0 +1,28 @@
+
+.slidercard {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slidercard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 300%; /* Ancho total de las tarjetas (300% para 3 tarjetas) */
+    animation: slideAnimation 13s infinite; /* Duración y repetición de la animación */
+  }
+
+  .slidercard li {
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  /* Estilos para la animación */
+  @keyframes slideAnimation {
+    0% { margin-left: 0; }
+    10% { margin-left: 0; }
+    33.333% { margin-left: -100%; }
+    43.333% { margin-left: -100%; }
+    100% { margin-left: 0; }
+  }

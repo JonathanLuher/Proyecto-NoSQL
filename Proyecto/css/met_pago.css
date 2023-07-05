@@ -1,0 +1,103 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg-login.jpg);
+    background-size: cover;
+    font-family: arial;
+  }
+  
+  .form-container {
+    background: #124279b6;
+    padding: 3em;
+    border-radius: 40px;
+    box-shadow: 0 0 1.6em #e6e9f9;
+    gap: 2em;
+  }
+  
+  .form-container .logo {
+    align-items: left;
+    max-width: 100%;
+  }
+
+  .form-container h3 {
+    color: rgb(163, 163, 163);
+  }
+  
+  .form-container .form-group {
+    box-shadow: 0 0 1em #bcbece41;
+    padding: 0.6em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border-radius: 20px;
+    color: #4d4d4d;
+  }
+  
+  .form-container .form-group input{
+    outline: none;
+    border: none;
+    background-color:transparent;
+    color: rgb(141, 138, 138);
+    font-family: "popins", sans-serif;
+  }
+
+  .form-container .form-group select{
+    outline: none;
+    border: none;
+  }
+  
+  .form-container .form-group input::-moz-placeholder {
+    color: rgb(141, 138, 138);
+    font-size: 0.9em;
+    font-family: "popins", sans-serif;
+  }
+  
+  .form-container .form-group input:-ms-input-placeholder {
+    color: rgb(141, 138, 138);
+    font-size: 0.9em;
+    font-family: "popins", sans-serif;
+  }
+  
+  .form-container .form-group input::placeholder {
+    color: rgb(141, 138, 138);
+    font-size: 0.9em;
+    font-family: "popins", sans-serif;
+  }
+  
+  .form-container .register-button {
+    padding: 1em;
+    background: #3e4684;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+  }
+  
+  .form-container .footer {
+    display: flex;
+    font-size: 0.7em;
+    color: #5e5e5e;
+  }
+  
+  .form-container .footer span {
+    cursor: pointer;
+  }
+  
+  button {
+    cursor: pointer;
+    box-shadow: 0 0 1em #bcbece5d;
+  }
+  
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
